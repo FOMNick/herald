@@ -1,10 +1,10 @@
 require 'rails/engine'
+require 'herald/publish_responder'
 
 module Herald
     @@publishers = []
 
-    autoload :PublishResponder, 'herald/publish_responder'
-    autoload :VERSION,          'herald/version'
+    autoload :VERSION, 'herald/version'
 
     def self.publishers
         @@publishers
