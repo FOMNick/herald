@@ -1,0 +1,1 @@
+Utilizes Jose Valim's wonderful little "responders" gem to hook publisher classes into the render process.
